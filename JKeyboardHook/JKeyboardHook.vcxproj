@@ -135,7 +135,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classfile_constants.h" />
-    <ClInclude Include="de_alfah_popup_jni_KeyboardHookThread.h" />
+    <ClInclude Include="com_biletnikov_hotkeys_GlobalKeyboardHook.h" />
+    <ClInclude Include="com_biletnikov_hotkeys_GlobalKeyboardHook_DLLStateThread.h" />
     <ClInclude Include="jawt.h" />
     <ClInclude Include="jawt_md.h" />
     <ClInclude Include="jdwpTransport.h" />

@@ -33,11 +33,11 @@ DWORD messageThreadID;
  
  
 /*
- * Class:     de_alfah_popup_jni_KeyboardHookThread
+ * Class:     com_biletnikov_hotkeys_jni_GlobalKeyboardHook
  * Method:    checkHotKey
  * Signature: ()Z
  */
-JNIEXPORT jboolean JNICALL Java_de_alfah_popup_jni_KeyboardHookThread_checkHotKey
+JNIEXPORT jboolean JNICALL Java_com_biletnikov_hotkeys_GlobalKeyboardHook_checkHotKey
 (JNIEnv *env, jobject obj)
 {
 	int pressedFlag = hotKeyPressedFlag;
@@ -102,11 +102,11 @@ static int setNewHotKey()
  
 
 /*
- * Class:     de_alfah_popup_jni_KeyboardHookThread
+ * Class:     com_biletnikov_hotkeys_jni_GlobalKeyboardHook
  * Method:    setHotKey
  * Signature: (IZZZZ)Z
  */
-JNIEXPORT jboolean JNICALL Java_de_alfah_popup_jni_KeyboardHookThread_setHotKey
+JNIEXPORT jboolean JNICALL Java_com_biletnikov_hotkeys_GlobalKeyboardHook_setHotKey
   (JNIEnv *, jobject, jint vk, jboolean altKey, jboolean ctrlKey, jboolean shiftKey, jboolean winKey)
 {
 	// define modifiers
@@ -135,11 +135,11 @@ JNIEXPORT jboolean JNICALL Java_de_alfah_popup_jni_KeyboardHookThread_setHotKey
 }
 
 /*
- * Class:     de_alfah_popup_jni_KeyboardHookThread
+ * Class:     com_biletnikov_hotkeys_jni_GlobalKeyboardHook
  * Method:    resetHotKey
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_de_alfah_popup_jni_KeyboardHookThread_resetHotKey
+JNIEXPORT void JNICALL Java_com_biletnikov_hotkeys_GlobalKeyboardHook_resetHotKey
   (JNIEnv * env, jobject)
 {
 	resetHotKey();

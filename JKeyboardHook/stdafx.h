@@ -12,6 +12,5 @@
 
 #include <process.h> 
 #include "Winuser.h"
-#include "jni.h"
-#include "de_alfah_popup_jni_KeyboardHookThread.h"
+#include "com_biletnikov_hotkeys_GlobalKeyboardHook.h"
 

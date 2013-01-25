@@ -24,9 +24,6 @@
     <ClInclude Include="classfile_constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="de_alfah_popup_jni_KeyboardHookThread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="jawt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -43,6 +40,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="jvmti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com_biletnikov_hotkeys_GlobalKeyboardHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="com_biletnikov_hotkeys_GlobalKeyboardHook_DLLStateThread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
